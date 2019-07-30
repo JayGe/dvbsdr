@@ -56,7 +56,7 @@ def usage():
 """)
 
 try:
-	opts, args = getopt.getopt(sys.argv[1:], 's:k:f:r:c:1eg:q:pv:oay', ['sr=', 
+	opts, args = getopt.getopt(sys.argv[1:], 's:k:f:r:c:1eg:q:pv:oayh', ['sr=', 
                                                    'key=',
                                                    'fec=',
                                                    'res=',
@@ -70,6 +70,7 @@ try:
 												   'obson',
 												   'ampon',
 												   'overlay',
+												   'help',
                                                    ])
 except getopt.GetoptError as err:
         print str(err)
