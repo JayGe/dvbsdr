@@ -33,7 +33,7 @@ FREQ="2409.25e6"
 GAIN="0.79"
 FPGAMODE="" # add params opt
 audiobitrate=24000
-res="1024x576"
+#res="1024x576"
 res="640x360"
 keyint=500
 
@@ -41,9 +41,9 @@ def usage():
 	print("""
 -s --sr Symbol Rate in kS 333 
 -f --fec Fec : {1/2,3/4,5/6,7/8} for DVBS {1/4,1/3,2/5,1/2,3/5,2/3,3/4,5/6,7/8,8/9,9/10} for DVBS2
--r --res Resolution 1024x576
+-r --res Resolution 640x360
 -q --freq Frequency 2409.25e6
--g --gain Lime Gain 70
+-g --gain Lime Gain 79
 -v --video Video Source
 -c --const Constellation mapping (DVBS2) : {QPSK,8PSK,16APSK,32APSK}
 -1 --dvbs Set DVB-S Default DVB-S2
