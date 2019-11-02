@@ -33,8 +33,8 @@ FREQ="2409.25e6"
 GAIN="0.79"
 FPGAMODE="" # add params opt
 audiobitrate=24000
-#res="1024x576"
-res="640x360"
+res="1024x576"
+#res="640x360"
 keyint=500
 
 def usage():
